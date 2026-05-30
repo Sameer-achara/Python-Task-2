@@ -1,0 +1,7 @@
+marks = float(input("Enter your marks percentage: "))
+family_income = float(input("Enter annual family income: "))
+
+if marks >= 80 and family_income <= 300000:
+    print("Eligible for Scholarship")
+else:
+    print("Not Eligible for Scholarship")
